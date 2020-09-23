@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31733" started-at="2020-09-23T03:03:58 IST" finished-at="2020-09-23T03:04:30 IST">
+  <suite name="Default suite" duration-ms="26724" started-at="2020-09-23T16:06:16 IST" finished-at="2020-09-23T16:06:42 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31733" started-at="2020-09-23T03:03:58 IST" finished-at="2020-09-23T03:04:30 IST">
+    <test name="Default test" duration-ms="26724" started-at="2020-09-23T16:06:16 IST" finished-at="2020-09-23T16:06:42 IST">
       <class name="JukinMedia.Grails.forgotPassword">
-        <test-method status="PASS" signature="fgtPwd1()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="fgtPwd1" duration-ms="5289" started-at="2020-09-23T03:03:58 IST" finished-at="2020-09-23T03:04:04 IST">
+        <test-method status="PASS" signature="fgtPwd1()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="fgtPwd1" duration-ms="4119" started-at="2020-09-23T16:06:16 IST" finished-at="2020-09-23T16:06:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fgtPwd1 -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="browserclose" is-config="true" duration-ms="86" started-at="2020-09-23T03:04:04 IST" finished-at="2020-09-23T03:04:04 IST">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="browserclose" is-config="true" duration-ms="86" started-at="2020-09-23T16:06:20 IST" finished-at="2020-09-23T16:06:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="fgtPwd2(java.lang.String)[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="fgtPwd2" duration-ms="9901" started-at="2020-09-23T03:04:04 IST" data-provider="getData" finished-at="2020-09-23T03:04:14 IST">
+        <test-method status="PASS" signature="fgtPwd2(java.lang.String)[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="fgtPwd2" duration-ms="5658" started-at="2020-09-23T16:06:20 IST" data-provider="getData" finished-at="2020-09-23T16:06:26 IST">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fgtPwd2 -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="browserclose" is-config="true" duration-ms="90" started-at="2020-09-23T03:04:14 IST" finished-at="2020-09-23T03:04:14 IST">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="browserclose" is-config="true" duration-ms="70" started-at="2020-09-23T16:06:26 IST" finished-at="2020-09-23T16:06:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="fgtPwd2(java.lang.String)[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="fgtPwd2" duration-ms="9665" started-at="2020-09-23T03:04:14 IST" data-provider="getData" finished-at="2020-09-23T03:04:23 IST">
+        <test-method status="PASS" signature="fgtPwd2(java.lang.String)[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="fgtPwd2" duration-ms="5671" started-at="2020-09-23T16:06:26 IST" data-provider="getData" finished-at="2020-09-23T16:06:31 IST">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fgtPwd2 -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="browserclose" is-config="true" duration-ms="78" started-at="2020-09-23T03:04:23 IST" finished-at="2020-09-23T03:04:24 IST">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="browserclose" is-config="true" duration-ms="54" started-at="2020-09-23T16:06:31 IST" finished-at="2020-09-23T16:06:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="FAIL" signature="navigatetoLogin()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="navigatetoLogin" duration-ms="6471" started-at="2020-09-23T03:04:24 IST" finished-at="2020-09-23T03:04:30 IST">
+        <test-method status="FAIL" signature="navigatetoLogin()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="navigatetoLogin" duration-ms="10954" started-at="2020-09-23T16:06:31 IST" finished-at="2020-09-23T16:06:42 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Login Page] but found [Registration]]]>
@@ -57,7 +57,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at JukinMedia.Grails.forgotPassword.navigatetoLogin(forgotPassword.java:64)
+at JukinMedia.Grails.forgotPassword.navigatetoLogin(forgotPassword.java:67)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -92,7 +92,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigatetoLogin -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="browserclose" is-config="true" duration-ms="71" started-at="2020-09-23T03:04:30 IST" finished-at="2020-09-23T03:04:30 IST">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:JukinMedia.Grails.forgotPassword@64729b1e]" name="browserclose" is-config="true" duration-ms="61" started-at="2020-09-23T16:06:42 IST" finished-at="2020-09-23T16:06:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->

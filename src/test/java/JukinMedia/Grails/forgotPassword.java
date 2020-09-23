@@ -39,16 +39,18 @@ public class forgotPassword extends base {
 
 		fpo.getEmail().sendKeys(email);
 		fpo.emailSubmit().click();
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		if (fpo.submitAlert().isDisplayed()) {
 			fpo.submitAlert().click();
 			System.out.println("Password reset link sent to your email");
-		} else if (!fpo.submitAlert().isDisplayed()) {
+		}
+		//else if (!fpo.submitAlert().isDisplayed()) {
+		else { 
 			String error = fpo.flashMsg().getText();
 			Assert.assertEquals("Please enter a valid email", error);
 			System.out.println("Give a valid email");
 		}
-
+		
 	}
 
 	@Test
