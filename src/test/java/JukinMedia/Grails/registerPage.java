@@ -14,7 +14,7 @@ public class registerPage extends base {
 	public WebDriver driver;
 	registerpagePO rpo;
 
-	//@Test
+	@Test
 	public void M1registerNavigate() throws IOException, InterruptedException {
 		driver = initializeBrowser();
 		driver.get(pro.getProperty("url"));
@@ -72,7 +72,7 @@ public class registerPage extends base {
 
 	}
 
-	//@Test
+	@Test
 	public void M3NavigateToMain() throws IOException, InterruptedException {
 		driver = initializeBrowser();
 		driver.get(pro.getProperty("url"));
