@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="JukinMedia.Grails.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="JukinMedia.Grails.registerPage">
+        <methods>
+          <include name="M2registerNew" invocation-numbers="1"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- JukinMedia.Grails.registerPage -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="JukinMedia.Grails.forgotPassword">
+        <methods>
+          <include name="browserclose"/>
+          <include name="navigatetoLogin"/>
+          <include name="fgtPwd2" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- JukinMedia.Grails.forgotPassword -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
